@@ -59,3 +59,48 @@
     </tr>
   </tbody>
 </table>
+
+## Working
+#### Disable:
+- fast boot
+- secury boot
+- serial COM
+- resize bar
+#### Enable
+- 4G decoding
+- SATA operations to AHCI
+- XCHCI USB
+
+## Working
+- [x] iCoud
+- [x] Ethernet
+- [x] Audio
+- [ ] CPU Name
+- [?] Bluetooth
+- [?] Wifi
+
+## Kexts
+- <a href="https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-EC-USBX-DESKTOP.aml">SSDT EC USBX DESKTOP</a>
+
+## Drivers
+- <a href="https://github.com/luchina-gabriel/BASE-EFI-AMD-RYZEN-THREADRIPPER/blob/main/EFI-Debug/OC/Drivers/AudioDxe.efi">Audio Dxe</a>
+- <a href="https://github.com/luchina-gabriel/BASE-EFI-AMD-RYZEN-THREADRIPPER/blob/main/EFI-Debug/OC/Drivers/HfsPlus.efi">HfsPlus</a>
+- <a href="https://github.com/acidanthera/OpenCorePkg/releases">Open Canopy</a>
+- <a href="https://github.com/luchina-gabriel/BASE-EFI-AMD-RYZEN-THREADRIPPER/blob/main/EFI-Debug/OC/Drivers/OpenRuntime.efi">Open Runtime</a>
+- <a href="https://github.com/luchina-gabriel/BASE-EFI-AMD-RYZEN-THREADRIPPER/blob/main/EFI-Debug/OC/Drivers/ResetNvramEntry.efi">Reset NVRAM Entry</a>
+
+## Kexts
+- <a href="https://github.com/acidanthera/Lilu/releases">Lilu</a>
+- <a href="https://github.com/acidanthera/VirtualSMC/releases">Virtual SMC</a>
+- <a href="https://github.com/trulyspinach/SMCAMDProcessor/releases">AMD Ryzen CPU Power Management</a>
+- <a href="https://github.com/trulyspinach/SMCAMDProcessor/releases">SMC AMD Processor</a>
+- <a href="https://github.com/acidanthera/AppleALC/releases">Apple ALC</a>
+- <a href="https://dortania.github.io/OpenCore-Install-Guide/ktext.html#extras">Apple MCE Reporter Disabler</a>
+- <a href="https://github.com/Mieze/RTL8111_driver_for_OS_X/releases">Realtek RTL 8111</a>
+- <a href="https://github.com/acidanthera/RestrictEvents/releases">Restrict Events</a>
+- <a href="https://github.com/corpnewt/USBMap">USB Map</a>
+- <a href="https://github.com/corpnewt/USBMap">USB Map Legacy</a>
+- <a href="https://github.com/acidanthera/WhateverGreen/releases">Whatever Green</a>
+
+### Based on
+<a href="https://github.com/luchina-gabriel/BASE-EFI-AMD-RYZEN-THREADRIPPER">Gabriel Luchina AMD EFI</a>
