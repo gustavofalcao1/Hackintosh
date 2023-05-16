@@ -60,24 +60,26 @@
   </tbody>
 </table>
 
-## Working
+## BIOS Config
 #### Disable:
 - fast boot
 - secury boot
 - serial COM
 - resize bar
-#### Enable
+#### Enable:
 - 4G decoding
 - SATA operations to AHCI
 - XCHCI USB
 
 ## Working
+#### Tested:
 - [x] iCoud
 - [x] Ethernet
 - [x] Audio
 - [ ] CPU Name
-- [?] Bluetooth
-- [?] Wifi
+#### Untested:
+- [ ] Bluetooth
+- [ ] Wifi
 
 ## Kexts
 - <a href="https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-EC-USBX-DESKTOP.aml">SSDT EC USBX DESKTOP</a>
