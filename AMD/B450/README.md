@@ -40,7 +40,7 @@
   </tbody>
 </table>
 
-## Base Systems
+## Tested Versions
 <table>
   <thead>
     <tr>
@@ -59,3 +59,11 @@
     </tr>
   </tbody>
 </table>
+
+## Computer Specification
+* Ventura (13.x)
+* Monterey (12.x)
+* Big Sur (11.x)
+* Catalina (10.15.x)
+* Mojave (10.14.x)
+* High Sierra (10.13.x)
