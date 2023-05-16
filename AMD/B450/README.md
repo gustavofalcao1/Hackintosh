@@ -62,7 +62,9 @@
 
 ## Boot Args
 - Debug
--  > -v keepsyms=1 debug=0x100 alcid=100 agdpmod=pikera unfairgva=1
+  -  > -v keepsyms=1 debug=0x100 alcid=100 agdpmod=pikera
+- Release
+  -  > alcid=100 agdpmod=pikera
 
 ## BIOS Config
 #### Disable:
