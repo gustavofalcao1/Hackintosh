@@ -60,6 +60,10 @@
   </tbody>
 </table>
 
+## Boot Args
+- Debug
+-  > -v keepsyms=1 debug=0x100 alcid=100 agdpmod=pikera unfairgva=1
+
 ## BIOS Config
 #### Disable:
 - fast boot
